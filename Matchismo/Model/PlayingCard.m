@@ -41,4 +41,21 @@
     }
 }
 
+- (int) match:(NSArray *)otherCards {
+    int score = 0;
+    
+    if ([otherCards count] == 1) {
+        // this returns nil if there's no first object
+        PlayingCard *otherCard = [otherCards firstObject];
+        if ([self.suit isEqualToString:otherCard.suit]) {
+            score = 1;
+        }
+        else if (self.rank == otherCard.rank) {
+            score = 4;
+        }
+    }
+    return score;
+}
+
+
 @end
