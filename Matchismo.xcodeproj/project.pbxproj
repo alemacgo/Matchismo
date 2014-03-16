@@ -22,6 +22,7 @@
 		7151757E18D5E00B00148ACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7151757C18D5E00B00148ACC /* InfoPlist.strings */; };
 		7151758018D5E00B00148ACC /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7151757F18D5E00B00148ACC /* MatchismoTests.m */; };
 		71E5F27918D5F5F60051FEE3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5F27818D5F5F60051FEE3 /* Card.m */; };
+		71E5F27D18D5FE7A0051FEE3 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5F27C18D5FE7A0051FEE3 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		7151757F18D5E00B00148ACC /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
 		71E5F27718D5F5F60051FEE3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		71E5F27818D5F5F60051FEE3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		71E5F27B18D5FE7A0051FEE3 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		71E5F27C18D5FE7A0051FEE3 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 			children = (
 				71E5F27718D5F5F60051FEE3 /* Card.h */,
 				71E5F27818D5F5F60051FEE3 /* Card.m */,
+				71E5F27B18D5FE7A0051FEE3 /* Deck.h */,
+				71E5F27C18D5FE7A0051FEE3 /* Deck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71E5F27D18D5FE7A0051FEE3 /* Deck.m in Sources */,
 				7151756518D5E00A00148ACC /* CardGameAppDelegate.m in Sources */,
 				7151756B18D5E00A00148ACC /* CardGameViewController.m in Sources */,
 				7151756118D5E00A00148ACC /* main.m in Sources */,
